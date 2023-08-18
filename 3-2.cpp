@@ -1,6 +1,8 @@
 //2.
 #include<iostream>
+
 using namespace std;
+
 int g(int m, int n, int x)
 {
     int ans = 0;
@@ -11,6 +13,7 @@ int g(int m, int n, int x)
         ans += g(m - i, n - 1, i);
     return ans;
 }
+
 int main()
 {
     int t, m, n;
